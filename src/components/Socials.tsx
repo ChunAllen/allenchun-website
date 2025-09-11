@@ -1,3 +1,4 @@
+import React from "react";
 import { socials } from "@/data/socials";
 
 import { 
@@ -8,7 +9,7 @@ import {
   SiMinutemailer
 } from "react-icons/si";
 
-const iconMap: Record<string, (props: { className?: string }) => JSX.Element> = {
+const iconMap: Record<string, (props: { className?: string }) => React.ReactNode> = {
   github:   ({ className }) => <SiGithub className={className} />,
   linkedin: ({ className }) => <SiLinkedin className={className} />,
   behance:  ({ className }) => <SiBehance className={className} />,
