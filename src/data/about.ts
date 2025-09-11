@@ -1,7 +1,12 @@
 export const about = {
-  name: "Allen Chun",
+  name: "Allen",
   title: "Senior Manager / Full Stack Developer",
   location: "Singapore",
+  tagline: `
+    I’m Allen, a Full Stack Software Engineer based in Singapore. With over 13 years of experience, I’ve built scalable software solutions that power tourism, streamline operations, and enhance digital experiences.
+
+    I’m passionate about creating software that is not only technically sound but also meaningful — helping organizations work smarter and enabling users to engage more seamlessly. I enjoy mentoring teams, exploring modern web and cloud technologies, and experimenting with AI and LLMs to discover new ways software can make an impact.
+  `,
   summary: `
     I’m Allen Chun, currently based in Singapore as a Senior Manager / Full Stack Software Engineer at Singapore Tourism Board.
 
@@ -23,11 +28,11 @@ export const about = {
     When I’m not coding, you’ll probably find me exploring new tech stacks, mentoring 
     teams on clean, scalable practices, or spending time with my family while dreaming up  the next big idea.
   `,
-  socials: {
-    email: "allen.chun@hotmail.com",
-    github: "https://github.com/ChunAllen",
-    linkedin: "https://ph.linkedin.com/pub/allen-chun/49/a0b/64b",
-    behance: "https://www.behance.net/allen_chun",
-    medium: "https://allenchun.medium.com/",
-  },
+  socials: [
+    { name: "GitHub", link: "https://github.com/ChunAllen", icon: "github" },
+    { name: "LinkedIn", link: "https://linkedin.com/in/allen-chun", icon: "linkedin" },
+    { name: "Behance", link: "https://www.behance.net/allen_chun", icon: "behance" },
+    { name: "Medium", link: "https://allenchun.medium.com", icon: "medium" },
+    { name: "Email", link: "mailto:allen.chun@hotmail.com", icon: "email" },
+  ],
 };

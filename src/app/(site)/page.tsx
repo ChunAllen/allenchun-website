@@ -1,25 +1,32 @@
-import Link from "next/link";
-import Section from "@/components/Section";
-import { projects } from "@/data/projects";
-import ProjectCard from "@/components/ProjectCard";
+import { about } from "@/data/about"
+import SocialLinks from "@/components/Socials"
+import Image from "next/image";
 
 export default function HomePage() {
-  const top = projects.slice(0, 3);
   return (
     <div className="py-10">
-      <h1 className="text-3xl font-bold">Hi, I’m Allen 👋</h1>
-      <p className="text-gray-600 mt-3 max-w-2xl">
-        Senior full-stack engineer. I build performant platforms and delightful admin tooling.
-      </p>
+      <div className="mx-auto max-w-5xl flex flex-col-reverse md:flex-row items-center md:items-start md:gap-12">
+        
+        <div className="flex-1 text-center md:text-left">
+          <h1 className="text-3xl font-bold">Hi 👋</h1>
+          <p className="text-gray-700 mt-4 text-lg font-medium leading-relaxed max-w-2xl">
+            {about.tagline}
+          </p>
+          <SocialLinks />
+        </div>
 
-      <Section title="Featured Projects">
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {top.map(p => <ProjectCard key={p.slug} p={p} />)}
+  
+        <div className="flex-shrink-0 mb-6 md:mb-0">
+          <Image
+            src="/images/profile.jpg"
+            alt={about.name}
+            width={220}
+            height={220}
+            className="rounded-full object-cover shadow-lg border"
+            priority
+          />
         </div>
-        <div className="mt-6">
-          <Link className="underline" href="/projects">See all projects →</Link>
-        </div>
-      </Section>
+      </div>
     </div>
   );
 }
