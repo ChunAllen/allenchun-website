@@ -1,4 +1,4 @@
-import { about } from "@/data/about";
+import { socials } from "@/data/socials";
 
 import { 
   SiGithub, 
@@ -19,7 +19,7 @@ const iconMap: Record<string, (props: { className?: string }) => JSX.Element> = 
 export default function SocialLinks() {
   return (
     <div className="flex gap-4 mt-6">
-      {about.socials.map((s) => {
+      {socials.links.map((s) => {
         const Icon = iconMap[s.icon];
         if (!Icon) return null;
 

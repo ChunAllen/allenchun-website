@@ -27,12 +27,5 @@ export const about = {
 
     When I’m not coding, you’ll probably find me exploring new tech stacks, mentoring 
     teams on clean, scalable practices, or spending time with my family while dreaming up  the next big idea.
-  `,
-  socials: [
-    { name: "GitHub", link: "https://github.com/ChunAllen", icon: "github" },
-    { name: "LinkedIn", link: "https://linkedin.com/in/allen-chun", icon: "linkedin" },
-    { name: "Behance", link: "https://www.behance.net/allen_chun", icon: "behance" },
-    { name: "Medium", link: "https://allenchun.medium.com", icon: "medium" },
-    { name: "Email", link: "mailto:allen.chun@hotmail.com", icon: "email" },
-  ],
+  `
 };

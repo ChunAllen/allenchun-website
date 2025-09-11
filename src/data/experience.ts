@@ -10,7 +10,7 @@ export type Role = {
 export const experience: Role[] = [
   {
     company: "Singapore Tourism Board",
-    title: "Senior Manager & Full Stack Developer",
+    title: "Senior Manager",
     start: "2017",
     end: "Present",
     logo: "images/experiences/stb.png",
@@ -18,7 +18,7 @@ export const experience: Role[] = [
   },
   {
     company: "Soho Property Pte Ltd Singapore",
-    title: "Freelance Software Engineer",
+    title: "Full Stack Software Engineer",
     start: "2021",
     end: "2023",
     logo: "images/experiences/soho.png",
