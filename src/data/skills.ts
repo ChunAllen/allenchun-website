@@ -1,5 +1,6 @@
 export const skills = {
-  languages: ["Ruby on Rails", "JavaScript", "Node.js", "TypeScript", "React", "Next.js", "Vue.js", "Nuxt.js"],
+  backend: ["Ruby on Rails", "JavaScript", "Node.js", "TypeScript"],
+  frontend: ["React", "Next.js", "Vue.js", "Nuxt.js", "Electron"],
   databases: ["PostgreSQL", "MySQL", "DynamoDB", "MongoDB", "Redis"],
   ai: ["OpenAI (GPT)", "Google Gemini", "AWS Bedrock Agents"],
   devops: [
@@ -8,7 +9,7 @@ export const skills = {
     "Infrastructure as Code",
     "Monitoring & Logging",
   ],
-  platforms: ["AWS", "DigitalOcean", "Heroku"],
+  platforms: ["AWS", "DigitalOcean", "Vercel", "Heroku"],
   testing: ["RSpec", "Unit Testing", "Jest"],
   tools: ["GitHub", "GitLab", "Jira", "Confluence"],
   methodologies: ["Scrum", "Kanban", "Extreme Programming"],
