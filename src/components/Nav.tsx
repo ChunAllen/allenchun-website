@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
+import Image from "next/image";
 
 const links = [
   { href: "/projects", label: "Projects" },
@@ -15,8 +16,14 @@ export default function Nav() {
   return (
     <header className="sticky top-0 z-50 border-b bg-white/70 backdrop-blur transition-colors">
       <nav className="mx-auto max-w-5xl px-4 h-14 flex items-center justify-between">
-        <Link href="/" className="font-semibold hover:opacity-80 transition">
-          Allen Chun
+         <Link href="/" className="flex items-center">
+          <Image
+            src="/images/logo.svg"
+            alt="Allen Chun"
+            width={40}
+            height={40}
+            priority
+          />
         </Link>
 
         {/* Desktop links */}

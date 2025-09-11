@@ -17,8 +17,9 @@ export default function HomePage() {
           <div className="mt-6">
              <Link
               href="/about"
-              className="inline-flex items-center gap-2 px-5 py-2 rounded-md bg-blue-600 text-white font-medium 
-                         hover:bg-blue-700 transition-colors">
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-md border border-blue-600 
+                      text-blue-600 text-sm font-medium 
+                      hover:bg-blue-600 hover:text-white transition-colors">
               <IoPersonCircleOutline className="w-5 h-5" />
               More about me
             </Link>
