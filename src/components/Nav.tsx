@@ -49,12 +49,12 @@ export default function Nav() {
 
       {/* Mobile dropdown */}
       {open && (
-        <div className="sm:hidden bg-white dark:bg-gray-900 border-t">
+        <div className="sm:hidden bg-white border-t">
           <ul className="flex flex-col gap-4 p-4 text-sm">
             {links.map((l) => (
               <li key={l.href}>
                 <Link
-                  className="block hover:opacity-70 transition-colors"
+                  className="block text-center hover:opacity-70 transition-colors"
                   href={l.href}
                   onClick={() => setOpen(false)}
                 >
