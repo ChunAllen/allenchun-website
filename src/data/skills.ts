@@ -1,6 +1,6 @@
 export const skills = {
   backend: ["Ruby on Rails", "JavaScript", "Node.js", "TypeScript"],
-  frontend: ["React", "Next.js", "Vue.js", "Nuxt.js", "Electron"],
+  frontend: ["React", "Next.js", "Vue.js", "Nuxt.js", "Electron", "Tailwind CSS", "Vuetify"],
   databases: ["PostgreSQL", "MySQL", "DynamoDB", "MongoDB", "Redis"],
   ai: ["OpenAI (GPT)", "Google Gemini", "AWS Bedrock Agents"],
   devops: [

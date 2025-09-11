@@ -12,7 +12,9 @@ export default function HomePage() {
           <p className="text-gray-700 mt-4 text-lg font-medium leading-relaxed max-w-2xl">
             {about.tagline}
           </p>
-          <SocialLinks />
+          <div className="flex justify-center md:justify-start mt-6">
+            <SocialLinks />
+          </div>
         </div>
 
   
