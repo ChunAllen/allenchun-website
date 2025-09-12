@@ -1,45 +1,36 @@
 export const skills = [
   {
     key: "Backend",
-    values: ["Ruby on Rails", "JavaScript", "Node.js", "TypeScript"],
+    values: ["Ruby on Rails", "Node.js", "Express.js", "Serverless Framework"],
   },
   {
     key: "Frontend",
-    values: ["React", "Next.js", "Vue.js", "Nuxt.js", "Electron", "Tailwind CSS", "Vuetify"],
+    values: ["Vue.js", "Nuxt.js", "React", "Next.js", "Electron", "Tailwind CSS", "Vuetify", "CSS"],
   },
   {
     key: "Databases",
     values: ["PostgreSQL", "MySQL", "DynamoDB", "MongoDB", "Redis"],
   },
   {
-    key: "AI",
-    values: ["OpenAI (GPT)", "Google Gemini", "AWS Bedrock Agents"],
+    key: "AI & LLM Integration",
+    values: ["LangChain", "OpenAI (GPT)", "Google Gemini", "AWS Bedrock Agents"],
   },
   {
-    key: "DevOps",
+    key: "Cloud & Infrastructure",
     values: [
-      "CI/CD pipelines",
-      "AWS (Lambda, API Gateway, ECS, DynamoDB, S3, CloudWatch)",
-      "Infrastructure as Code",
-      "Monitoring & Logging",
+      "Amazon Web Services",
+      "DigitalOcean",
+      "Vercel",
+      "Heroku",
+      "CI/CD pipelines (Gitlab, GitHub Actions)"
     ]
   },
   {
-    key: "Platforms",
-    values: [
-      "AWS", "DigitalOcean", "Vercel", "Heroku"
-    ]
-  },
-  {
-    key: "Testing",
+    key: "Testing & Quality",
     values: ["RSpec", "Unit Testing", "Jest"]
   },
   {
-    key: "Tools",
-    values: ["GitHub", "GitLab", "Jira", "Confluence"],
-  },
-  {
-    key: "Methodologies",
-    values: ["Scrum", "Kanban", "Extreme Programming"],
-  },
+    key: "Tools & Collaboration",
+    values: ["GitHub", "GitLab", "Jira", "Confluence", "Agile", "Scrum", "Extreme Programming"],
+  }
 ];

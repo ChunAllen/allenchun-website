@@ -8,7 +8,9 @@ export default function AboutPage() {
   return (
     <div className="py-12">
       <div className="py-10 max-w-4xl mx-auto">
-        <p className="mb-4 text-xl">{about.summary}</p>
+        <p className="text-gray-700 mt-4 text-2xl font-medium leading-relaxed max-w-2xl">
+          {about.tagline}
+        </p>
       </div>
 
       <div className="py-10 max-w-4xl mx-auto">

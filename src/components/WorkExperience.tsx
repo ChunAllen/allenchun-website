@@ -37,7 +37,7 @@ export default function ExperienceTimeline({
                       alt={`${item.company} logo`}
                       width={56}
                       height={56}
-                      className="h-full w-full object-cover"
+                      className="h-full w-full object-contain"
                     />
                   </div>
                 </div>

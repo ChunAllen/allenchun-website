@@ -8,11 +8,10 @@ export default function HomePage() {
   return (
     <div className="py-10">
       <div className="mx-auto max-w-5xl flex flex-col-reverse md:flex-row items-center md:items-start md:gap-12">
-        
         <div className="flex-1 text-center md:text-left">
-          <h1 className="text-3xl font-bold">Hi 👋</h1>
-          <p className="text-gray-700 mt-4 text-2xl font-medium leading-relaxed max-w-2xl">
-            {about.tagline}
+          <h1 className="text-3xl text-balance">Hi 👋</h1>
+          <p className="mt-6 text-3xl text-balance max-lg:font-medium max-sm:px-4 sm:text-5xl lg:text-5xl xl:text-5xl">
+            {about.hero}
           </p>
           <div className="mt-6">
              <Link
