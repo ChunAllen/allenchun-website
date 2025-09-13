@@ -10,7 +10,7 @@ export default function HomePage() {
       <div className="mx-auto max-w-5xl flex flex-col-reverse md:flex-row items-center md:items-start md:gap-12">
         <div className="flex-1 text-center md:text-left">
           <h1 className="text-3xl text-balance">Hi 👋</h1>
-          <p className="mt-6 text-3xl text-balance max-lg:font-medium max-sm:px-4 sm:text-5xl lg:text-5xl xl:text-5xl">
+          <p className="mt-6 text-1xl text-balance max-lg:font-medium max-sm:px-4 sm:text-1xl lg:text-5xl xl:text-5xl">
             {about.hero}
           </p>
           <div className="mt-6">
