@@ -1,11 +1,7 @@
 export const skills = [
   {
-    key: "Backend",
-    values: ["Ruby on Rails", "Node.js", "Express.js", "Serverless Framework"],
-  },
-  {
-    key: "Frontend",
-    values: ["Vue.js", "Nuxt.js", "React", "Next.js", "Electron", "Tailwind CSS", "Vuetify", "CSS"],
+    key: "Languages & Frameworks",
+    values: ["Ruby on Rails", "Node.js", "Vue.js", "Nuxt.js", "React", "Next.js", "Serverless Framework", "Electron"],
   },
   {
     key: "Databases",
@@ -27,7 +23,7 @@ export const skills = [
   },
   {
     key: "Testing & Quality",
-    values: ["RSpec", "Unit Testing", "Jest"]
+    values: ["RSpec", "Jest"]
   },
   {
     key: "Tools & Collaboration",
