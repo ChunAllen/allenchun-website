@@ -17,7 +17,6 @@ export default function ProjectDetail({ params }: { params: { slug: string } }) 
         {p.tags.map(t => <li key={t}>{t}</li>)}
       </ul>
       {p.link && <p><a href={p.link}>Live</a></p>}
-      {p.repo && <p><a href={p.repo}>Code</a></p>}
     </article>
   );
 }

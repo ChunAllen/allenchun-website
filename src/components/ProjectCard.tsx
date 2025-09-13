@@ -29,25 +29,10 @@ export default function ProjectCard({ p }: { p: Project }) {
         <h3 className="text-base font-semibold text-gray-900 dark:text-white">
           {p.title}
         </h3>
+    
         <p className="mt-2 text-sm text-gray-600 dark:text-gray-300 line-clamp-3">
           {p.summary}
         </p>
-
-        {/* Links */}
-        {(p.link) && (
-          <div className="mt-4 flex gap-4 text-sm font-medium">
-            {p.link && (
-              <a
-                href={p.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-600 hover:underline dark:text-blue-400"
-              >
-                View Showcase
-              </a>
-            )}
-          </div>
-        )}
 
         {/* Tags */}
         <div className="mt-3 flex flex-wrap gap-2">
