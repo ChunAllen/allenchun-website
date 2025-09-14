@@ -1,3 +1,4 @@
+import SocialLinks from "@/components/Socials";
 import WorkExperience from "@/components/WorkExperience";
 import Skills from "@/components/Skills";
 import { about } from "@/data/about"
@@ -11,6 +12,9 @@ export default function AboutPage() {
         <p className="text-gray-700 mt-4 text-2xl font-medium leading-relaxed max-w-2xl">
           {about.tagline}
         </p>
+        <div className="flex justify-center md:justify-start mt-6">
+          <SocialLinks />
+        </div>
       </div>
 
       <div className="py-10 max-w-4xl mx-auto">

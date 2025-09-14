@@ -6,10 +6,10 @@ export default function ProjectCard({ p }: { p: Project }) {
   return (
     <Link
       href={`/projects/${p.slug}`}
-      className="group block overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm transition hover:shadow-md dark:border-gray-800 dark:bg-gray-900">
-
+      className="group block overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm transition hover:shadow-md"
+    >
       {p.image ? (
-        <div className="relative w-full aspect-video bg-gray-100 dark:bg-gray-800">
+        <div className="relative w-full aspect-video bg-gray-100">
           <Image
             src={p.image}
             alt={p.title}
@@ -19,27 +19,23 @@ export default function ProjectCard({ p }: { p: Project }) {
           />
         </div>
       ) : (
-        <div className="relative w-full aspect-video grid place-items-center bg-gray-100 dark:bg-gray-800 text-sm text-gray-500">
+        <div className="relative w-full aspect-video grid place-items-center bg-gray-100 text-sm text-gray-500">
           No image
         </div>
       )}
 
       {/* Content */}
       <div className="p-4">
-        <h3 className="text-base font-semibold text-gray-900 dark:text-white">
-          {p.title}
-        </h3>
-    
-        <p className="mt-2 text-sm text-gray-600 dark:text-gray-300 line-clamp-3">
-          {p.summary}
-        </p>
+        <h3 className="text-base font-semibold text-gray-900">{p.title}</h3>
+
+        <p className="mt-2 text-sm text-gray-600 line-clamp-3">{p.summary}</p>
 
         {/* Tags */}
         <div className="mt-3 flex flex-wrap gap-2">
           {p.tags.map((t) => (
             <span
               key={t}
-              className="text-xs px-2 py-0.5 rounded-full bg-blue-100 text-blue-700 dark:bg-blue-900/40 dark:text-blue-200"
+              className="text-xs px-2 py-0.5 rounded-full bg-blue-100 text-blue-700"
             >
               {t}
             </span>

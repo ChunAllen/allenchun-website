@@ -20,7 +20,7 @@ export default function ProjectDetail({ params }: { params: { slug: string } }) 
       <div className="mx-auto max-w-4xl px-4">
         {/* Title + meta */}
         <header className="mb-6">
-          <h1 className="text-3xl font-bold text-gray-900 dark:text-white">{p.title}</h1>
+          <h1 className="text-3xl font-bold text-gray-900">{p.title}</h1>
         </header>
 
         {/* Gallery */}
@@ -31,7 +31,7 @@ export default function ProjectDetail({ params }: { params: { slug: string } }) 
         )}
 
         {/* Summary */}
-        <p className="text-gray-700 dark:text-gray-200 leading-relaxed mb-6">{p.summary}</p>
+        <p className="text-gray-700 leading-relaxed mb-6">{p.summary}</p>
 
         {/* Tags */}
         {p.tags?.length > 0 && (
@@ -39,7 +39,7 @@ export default function ProjectDetail({ params }: { params: { slug: string } }) 
             {p.tags.map((t) => (
               <span
                 key={t}
-                className="text-xs px-2 py-0.5 rounded-full bg-blue-100 text-blue-700 dark:bg-blue-900/40 dark:text-blue-200"
+                className="text-xs px-2 py-0.5 rounded-full bg-blue-100 text-blue-700"
               >
                 {t}
               </span>

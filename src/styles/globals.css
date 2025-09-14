@@ -17,3 +17,9 @@ body {
   color: var(--foreground);
   font-family: "Roboto", sans-serif; 
 }
+
+.hero-text {
+  color: #333;
+  font-weight: 720;
+  letter-spacing: -.05em;
+}

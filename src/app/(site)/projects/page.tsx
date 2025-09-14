@@ -12,7 +12,7 @@ export default function HomePage() {
           {top.map(p => <ProjectCard key={p.slug} p={p} />)}
         </div>
         <div className="mt-6">
-          <Link className="underline" href="https://www.behance.net/allen_chun">See all projects →</Link>
+          <Link className="underline" href="https://www.behance.net/allen_chun" target="_blank">See all projects →</Link>
         </div>
       </Section>
     </div>
