@@ -9,7 +9,7 @@ export const skills = [
   },
   {
     key: "AI & LLM Integration",
-    values: ["LangChain", "OpenAI (GPT)", "Google Gemini", "AWS Bedrock Agents"],
+    values: ["LangChain", "OpenAI (ChatGPT)", "Google Gemini", "AWS Bedrock Agents", "GitHub Copilot"],
   },
   {
     key: "Cloud & Infrastructure",
