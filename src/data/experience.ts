@@ -16,14 +16,14 @@ export const experience: Role[] = [
     logo: "images/experiences/stb.png",
     link: "https://www.visitsingapore.com/"
   },
-  {
-    company: "Soho Property Pte Ltd Singapore",
-    title: "Full Stack Software Engineer",
-    start: "Sept 2021",
-    end: "Jan 2023",
-    logo: "images/experiences/soho.png",
-    link: "https://soho.com.au/"
-  },
+  // {
+  //   company: "Soho Property Pte Ltd Singapore",
+  //   title: "Full Stack Software Engineer",
+  //   start: "Sept 2021",
+  //   end: "Jan 2023",
+  //   logo: "images/experiences/soho.png",
+  //   link: "https://soho.com.au/"
+  // },
   {
     company: "Tinkerbox Studios Pte Ltd Singapore",
     title: "Full Stack Software Engineer",

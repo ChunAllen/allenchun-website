@@ -26,7 +26,7 @@ export default function AboutPage() {
         <div className="flex items-center justify-between mb-6">
           <h1 className="text-2xl font-bold">Work Experience</h1>
           <Link
-            href="https://drive.google.com/file/d/1nsnvLiMi4CQlbnKhOwrd6f5_xD4O9QF0/view?usp=sharing"
+            href="https://drive.google.com/file/d/1NYhcKgiMgb8WXZd1EMLbs3VpPDOrisB7/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             download
